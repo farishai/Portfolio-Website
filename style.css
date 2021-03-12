@@ -1,0 +1,144 @@
+
+body {
+    margin: 0;
+    background-color: rgb(183, 238, 183);
+}
+
+.cover {
+    margin: 0;
+    background-color: rgb(183, 238, 183);
+    border-bottom:    thistle solid;
+    text-align: right;
+    height: 300px;
+
+}
+
+#icons {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 1100px;
+    float: right;
+    
+}
+
+.header-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+#intro {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    
+    right: 800px;
+}
+
+#intro h1 {
+    font-family: 'Yatra One', cursive;
+    font-size: 35px;
+}
+
+#intro h1, h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#intro h3 {
+    font-style: italic;
+}
+
+#intro h2 {
+    border: green solid;
+    padding: 5px;
+}
+
+
+.cover #profile img {
+    
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: green solid;
+    border-width: 10px;
+    margin-right: 40px;
+    
+}
+
+header {
+    display: inline-block;
+    float: left;
+}
+
+header nav li {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 800;
+    color: gray;
+}
+
+.article {
+    width: 900px;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-right: 80px;
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+.article p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 25px;
+    
+}
+
+.article h2 {
+    font-family: 'Carter One', cursive;
+}
+
+.sidebar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 80px;
+    border-right: thistle solid;
+    display: inline-block;
+
+    
+}
+
+.sidebar h3 {
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.sidebar li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+footer {
+    width: 100%;
+    background-color: darkolivegreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
